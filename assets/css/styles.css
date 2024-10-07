@@ -111,15 +111,15 @@ a {
     border-radius: 8px;
 }
 
-.hero {
+.hero-wrap {
     margin-top: 130px;
 }
 
-.hero .info {
+.hero-wrap .info {
     width: 51%;
 }
 
-.hero .sub-title {
+.hero-wrap .sub-title {
     color: #687690;
     font-size: 1.8rem;
     line-height: 1.5;
@@ -127,7 +127,7 @@ a {
     letter-spacing: 0.01em;
 }
 
-.hero .title {
+.hero-wrap .title {
     color: #000336;
     font-size: 6.2rem;
     font-weight: 700;
@@ -135,7 +135,7 @@ a {
     margin-top: 8px;
 }
 
-.hero .desc {
+.hero-wrap .desc {
     color: #5a6473;
     font-size: 1.8rem;
     font-weight: 400;
