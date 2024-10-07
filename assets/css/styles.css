@@ -52,7 +52,17 @@ a {
 }
 
 /* Header */
-.header {
+.fix-header {
+    background: #e6f0ff;
+    padding-top: 26px;
+    position: sticky;
+    z-index: 1;
+    top: -26px;
+}
+
+.hero-wrap {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background: #e6f0ff;
     height: 100vh;
@@ -61,7 +71,7 @@ a {
 .navbar {
     display: flex;
     align-items: center;
-    padding-top: 38px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -101,7 +111,7 @@ a {
 }
 
 .hero .info {
-    max-width: 51%;
+    width: 51%;
 }
 
 .hero .sub-title {
